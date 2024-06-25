@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-photo {
+            width: 138px;
+            height: 245px;
+            border-radius: 80%;
+            overflow: hidden;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .profile-photo img {
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+            margin: 20px 0;
+            color: #7f8c8d;
+        }
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .projects {
+            margin-top: 50px;
+            text-align: left;
+        }
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        .project:hover {
+            transform: translateY(-10px);
+        }
+        .project h3 {
+            margin: 0 0 10px;
+            color: #2c3e50;
+        }
+        .project p {
+            margin: 0;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-photo">
+            <img src="MyPhoto.jpg" alt="My Photo">
+        </div>
+        <h1>Sugam Shrestha</h1>
+        <p>Welcome to my portfolio! I'm Sugam Shrestha, currently studying Information Technology. 
+            Here, you'll find a showcase of my projects, highlighting my skills and experiences in the field. 
+            Dive in to explore my work and get to know more about my journey in IT..</p>
+
+        <div id="projects" class="projects">
+            <div class="project">
+                <h3><a href="sugam.html" style="text-decoration: none; color: #2c3e50;">The Beatles Wikipedia</a></h3>
+                <p>Brief description of the project, the technologies used, and the role you played.</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project, the technologies used, and the role you played.</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 3</h3>
+                <p>Brief description of the project, the technologies used, and the role you played.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </div>
+</body>
+</html>
